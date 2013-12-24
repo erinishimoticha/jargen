@@ -1,0 +1,19 @@
+{
+  "name": "jargen",
+  "version": "0.0.0",
+  "description": "Jargon generator",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@heroku.com:jargen.git"
+  },
+  "author": "Erin Spiceland <erin@thespicelands.com>",
+  "license": "MIT",
+  "dependencies": {
+    "logfmt": "~0.18.1",
+    "express": "~3.4.7"
+  }
+}
