@@ -1,18 +1,21 @@
 {
-  "name": "jargen",
-  "version": "0.0.0",
-  "description": "Jargon generator",
-  "main": "server.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git@heroku.com:jargen.git"
-  },
-  "author": "Erin Spiceland <erin@thespicelands.com>",
-  "license": "MIT",
-  "dependencies": {
-    "node-static": "~0.7.2"
-  }
+    "name": "jargen",
+    "private": true,
+    "version": "0.0.0",
+    "description": "a Sails application",
+    "dependencies": {
+        "sails": "0.9.8",
+        "grunt": "0.4.1",
+        "sails-disk": "~0.9.0",
+        "ejs": "0.8.4",
+        "optimist": "0.3.4"
+    },
+    "scripts": {
+        "start": "node app.js",
+        "debug": "node debug app.js"
+    },
+    "main": "app.js",
+    "repository": "",
+    "author": "",
+    "license": ""
 }
